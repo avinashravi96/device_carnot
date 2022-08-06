@@ -104,9 +104,10 @@ then you'll need to check that you used the correct hostname, port, password and
 
 If the data loader fails to post the sample data into the application, make sure that the Flask application is running **before** running the data loader.
 
-## Create, Read, Update and Delete Data
+## API Documentation (POSTMAN)
 
-Let's create and manipulate some instances of our data model in Redis.  Here we'll look at how to call the Flask API with curl (you could also use Postman), how the code works, and how the data's stored in Redis.
+[API Document link](https://documenter.getpostman.com/view/6060124/VUjMnkDf)
+
 
 
 ## Shutting Down Redis (Docker)
