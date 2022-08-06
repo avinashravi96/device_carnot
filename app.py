@@ -6,7 +6,6 @@ from urllib import response
 from xml.dom import NotFoundErr
 from flask import Flask, request, Response
 from pydantic import ValidationError
-from zmq import device
 from device import DeviceLog
 from redis_om import Migrator
 from redis_om.model import NotFoundError
